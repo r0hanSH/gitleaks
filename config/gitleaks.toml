@@ -2371,6 +2371,14 @@ keywords = [
     "okta",
 ]
 
+[rules]]
+description = "Open AI token"
+id = "open-ai-token"
+regex = '''(sk-)[a-zA-Z0-9]{48}'''
+keywords = [
+    "sk-",
+]
+
 [[rules]]
 description = "Plaid API Token"
 id = "plaid-api-token"
