@@ -2371,7 +2371,7 @@ keywords = [
     "okta",
 ]
 
-[rules]]
+[[rules]]
 description = "Open AI token"
 id = "open-ai-token"
 regex = '''(sk-)[a-zA-Z0-9]{48}'''
