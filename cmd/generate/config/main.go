@@ -4,6 +4,7 @@ import (
 	"os"
 	"text/template"
 
+
 	"github.com/rs/zerolog/log"
 
 	"github.com/zricethezav/gitleaks/v8/cmd/generate/config/rules"
